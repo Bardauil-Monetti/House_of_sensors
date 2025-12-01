@@ -40,6 +40,7 @@ void setup() {
 }
 
 void loop(){
+  presencia = false;   
   for(int i = 0; i < 4; i++){
     if(flag[i]){
       for(int j = 0; j < 7; j++){
